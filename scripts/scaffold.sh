@@ -134,7 +134,7 @@ bash scripts/scaffold/create-directories.sh "$PROJECT_NORMALIZED" "$ORG_NORMALIZ
 bash scripts/scaffold/create-config-files.sh "$PROJECT_NAME" "$PROJECT_NORMALIZED" "$ORG_NAME" "$ORG_NORMALIZED" "$REGION" "$ENVIRONMENT" "$API_VERSION" "$SKU" "$CAPACITY"
 bash scripts/scaffold/create-python-modules.sh "$PROJECT_NORMALIZED"
 bash scripts/scaffold/create-examples.sh "$PROJECT_NORMALIZED" "$ORG_NORMALIZED"
-bash scripts/scaffold/create-documentation.sh "$PROJECT_NORMALIZED" "$PROJECT_NAME" "$ORG_NAME"
+#bash scripts/scaffold/create-documentation.sh "$PROJECT_NORMALIZED" "$PROJECT_NAME" "$ORG_NAME"
 
 echo ""
 echo -e "${GREEN}========================================${NC}"
